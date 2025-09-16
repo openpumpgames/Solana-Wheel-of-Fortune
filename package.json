@@ -1,0 +1,26 @@
+{
+  "name": "solana-wheel-of-fortune",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "rm -rf .next",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next",
+    "test:holders": "node scripts/probe-holders.mjs --mint $MINT --limit ${LIMIT:-10} --rpc ${RPC:-$SOLANA_RPC_URL}"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/react": "18.3.3",
+    "@types/node": "20.11.30",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5"
+  }
+}

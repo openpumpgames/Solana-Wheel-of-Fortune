@@ -2,6 +2,9 @@
 
 Desktop‑first, modern “Wheel of Fortune” built with Next.js and React. It fetches top token holders for a given Solana token mint (via a public RPC), displays them on a wheel, and spins to pick a random winner. Open source and easy to run.
 
+DEMO:
+https://solana-wheel-of-fortune.vercel.app/
+
 ## Features
 
 - Desktop‑first, responsive UI with a clean, modern style.

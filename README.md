@@ -5,6 +5,9 @@ Desktop‑first, modern “Wheel of Fortune” built with Next.js and React. It 
 DEMO:
 https://solana-wheel-of-fortune.vercel.app/
 
+TOKEN:
+7Cw2wFW6nAWpnDuym74NMXxw6Pn1sk29ZC2wNybJuVta
+
 ## Features
 
 - Desktop‑first, responsive UI with a clean, modern style.
